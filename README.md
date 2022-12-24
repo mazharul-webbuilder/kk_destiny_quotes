@@ -15,7 +15,8 @@ update, delete a quote.
 4. Now simply run the project by this command "php artisan serve" on project root.
 5. Done. Now visit this url http://127.0.0.1:8000/ 
 
-#####Note: To access admin panel, you must be registered.
+#####Note: To access admin panel, you must be registered. To create a new post, you must add atleast 100 charecters.
+
 
 ###Thanks
 
