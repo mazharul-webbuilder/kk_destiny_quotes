@@ -13,7 +13,7 @@ class SearchController extends Controller
             'searchpattern' => ['required']
         ]);
 
-        $quotes = Quote::where('quote', 'LIKE', "%test%")->paginate(5);
+        $quotes = Quote::where('quote', 'LIKE', "%$request->searchpattern%")->paginate(5);
 
         return view('front.home', compact('quotes'));
     }
