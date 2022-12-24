@@ -1,0 +1,22 @@
+/*Custom style for front-end will be written here*/
+.logo_design{
+    height: 50px;
+    width: 50px;
+}
+.quote-body{
+    /*font-size: 17px;*/
+    color: dimgray;
+}
+
+.admin-button{
+    /*position: fixed;*/
+    /*width: 200px;*/
+}
+
+.fixed-bottom{
+    position: fixed;
+    right: 0px;
+    left: unset;
+    bottom: 5px;
+    z-index: 1030;
+}
